@@ -1,4 +1,8 @@
 import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # API URLs
 SOFASCORE_LIVE_EVENTS_URL = "https://api.sofascore.com/api/v1/sport/tennis/events/live"
